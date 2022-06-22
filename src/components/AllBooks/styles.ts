@@ -12,9 +12,11 @@ export const Container = styled.div`
   margin: 20px auto;
   border-radius: 4px;
   padding: 16px;
-  box-shadow: 0 0 4px #DBDBDB;
+  box-shadow: 0 0 4px rgba(0, 0,0,0.5);
   img{
     height: 224px;
+    border-radius: 4px;
+
   }
   .textBook{
     display: flex;

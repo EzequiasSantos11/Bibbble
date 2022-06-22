@@ -15,6 +15,7 @@ export const Container = styled.section`
     justify-content: center;
     padding: 40px 0;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    gap: 10px;
     @media (max-width: 800px) {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
       gap: 10px;

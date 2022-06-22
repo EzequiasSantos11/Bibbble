@@ -7,7 +7,8 @@ export const Container = styled.header`
   justify-content: space-around;
   height: 99px;
   width: 100%;
-  box-shadow: 0 0  2px #cccc;
+  box-shadow: 0 0 4px rgba(0, 0,0,0.5);
+
   .iconMenu{
     display: none;
   }
